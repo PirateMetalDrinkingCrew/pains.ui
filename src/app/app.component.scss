@@ -159,6 +159,15 @@
     transition: 1s ease-out;
   }
 
+  .content button{
+    background-color: white;
+  }
+
+  .content button img{
+    height: 100px;
+    width: 100px;
+  }
+
   .circle-link:hover {
     transform: translateY(-0.25rem);
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
