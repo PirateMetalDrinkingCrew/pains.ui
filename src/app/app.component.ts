@@ -45,4 +45,9 @@ export class AppComponent {
       this.btnPrevClicked();
     }
   }
+
+  restart() {
+    this.currentMapIndex = 0;
+    this.currentMap = this.maps[this.currentMapIndex];
+  }
 }

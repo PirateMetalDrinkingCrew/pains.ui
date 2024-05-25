@@ -45,6 +45,21 @@ p {
   margin: 0 16px;
 }
 
+.toolbar .restart-btn {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  margin-right: 8px;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.toolbar .restart-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
 .content {
   display: flex;
   margin: 82px auto 32px;
