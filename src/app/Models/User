@@ -2,10 +2,10 @@ import { v4 as uuidv4 } from 'uuid';
 
 export class User {
   guid: string;
-  herkunft: string;
+  origin: string;
 
-  constructor(herkunft: string) {
+  constructor(origin: string) {
     this.guid = uuidv4();
-    this.herkunft = herkunft;
+    this.origin = origin;
   }
 }

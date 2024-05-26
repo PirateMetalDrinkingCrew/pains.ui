@@ -1,0 +1,164 @@
+:host {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 8px 0;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .spacer {
+    flex: 1;
+  }
+  
+  .toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #1a1a1ac2;
+    border-color: black;
+    font-weight: 600;
+  }
+  
+  .toolbar h1 {
+    color: white;
+  }
+  
+  .toolbar img {
+    margin: 0 16px;
+  }
+  
+  .toolbar .restart-btn {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 8px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .toolbar .restart-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .content {
+    display: flex;
+    margin: 82px auto 32px;
+    padding: 0 16px;
+    max-width: 960px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .consent:hover {
+    transform: translateY(-0.09rem);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  svg.material-icons:not(:last-child) {
+    margin-right: 8px;
+  }
+  
+  .map-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+    width: 100%;
+  }
+  
+  .map-container .card:not(:last-child) {
+    margin-right: 0;
+  }
+  
+  .map-container .card:not(.highlight-card) {
+    cursor: pointer;
+  }
+  
+  .map-container .card:not(.highlight-card):hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+  }
+  
+  .map-container .card:not(.highlight-card):hover .material-icons path {
+    fill: rgb(105, 103, 103);
+  }
+  
+  .map-container button {
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: x-large;
+    width: 80px; /* Breitere Buttons */
+    height: 80px; /* Höhere Buttons */
+    margin: 10px; /* Abstand um die Buttons herum */
+    border-radius: 10px; /* Abgerundete Ecken */
+    cursor: pointer; /* Cursor ändern */
+    transition: background-color 0.3s, transform 0.3s; /* Übergangseffekt für Hintergrundfarbe und Transform */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .map-container button i {
+    font-size: 36px; /* Größe der Icons */
+  }
+  
+  .map-container button:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-0.25rem);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .consent {
+    background-color: white;
+    border-radius: 10px; /* Abgerundete Ecken für den consent Button */
+    border: 2px solid black; /* Konsistenter Rand mit den anderen Buttons */
+    width: 80px; /* Konsistente Breite */
+    height: 80px; /* Konsistente Höhe */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, transform 0.3s; /* Übergangseffekt für Hintergrundfarbe und Transform */
+  }
+  
+  .consent img {
+    height: 36px; /* Konsistente Größe mit den Icons */
+    width: 36px; /* Konsistente Größe mit den Icons */
+  }
+  
+  .consent:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-0.25rem);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  a,
+  a:visited,
+  a:hover {
+    color: #1976d2;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #125699;
+  }
+  

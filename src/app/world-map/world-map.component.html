@@ -1,0 +1,17 @@
+<div class="content" role="main">
+    <h2>Language</h2>
+    <p>Choose your language</p>
+
+    <div class="map-container"
+         (touchstart)="onTouchStart($event)"
+         (touchmove)="onTouchMove($event)"
+         (touchend)="onTouchEnd()">
+      <button (click)="btnPrevClicked()"><i class="fas fa-arrow-left"></i></button>
+      <img id="world-continent" [src]="currentMap" />
+      <button (click)="btnNextClicked()"><i class="fas fa-arrow-right"></i></button>
+    </div>
+
+    <button class="consent">
+      <img src="../../assets/Icons/check.png">
+    </button>
+  </div>
